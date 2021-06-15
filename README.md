@@ -31,3 +31,7 @@ code .
 ```
 
 Open the file `notebooks\explain-model.ipynb` to get started exploring the code.
+
+
+[POETRY]: https://python-poetry.org/
+[PYTHON]: https://www.python.org/
