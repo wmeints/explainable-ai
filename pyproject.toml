@@ -6,7 +6,7 @@ authors = ["Willem Meints <willem.meints@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.8,<3.10"
+python = ">=3.8,<3.10"
 pandas = "^1.2.4"
 scipy = "^1.6.3"
 dalex = "^1.2.0"
