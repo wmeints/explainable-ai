@@ -30,8 +30,37 @@ by executing the following command in the shell you just opened:
 code .
 ```
 
-Open the file `notebooks\explain-model.ipynb` to get started exploring the code.
+## Contents of the demo
 
+The notebooks in this repository explain how to use explainers in various ways to
+better understand the behavior of a machine-learning model.
+
+The demo code is based on the [UCI credit card defaulters dataset][DATASET]. For
+the purposes of this demo, I've created a random forest classifier that predicts
+whether a customer is going to default on their credit card.
+
+The dataset contains some demographic information about customers and their
+payment history. The following groups of columns are available in the dataset in
+regards to payment history of customers:
+
+* payment history: Did the customer pay on time? (-1: On time, > 0 how many months over due.)
+* payment amount: How much did the customer pay for their credit card? (amount in taiwanese dollars)
+* billing history: How much was billed to the customer? (amount in taiwanese dollars)
+
+Please check [the official description of the dataset][DATASET] to get a full
+description of what is in the dataset.
+
+You're free to navigate the demo code in any way you like. But I recommend you
+read the notebooks in this order:
+
+1. [Uncover model structure](./notebooks/uncover-model-structure.ipynb)
+2. [Debug model predictions](./notebooks/debug-model-predictions.ipynb)
+
+## Comments or improvements
+
+Feel free to post any comments and/or improvements in the issues section or
+create a pull request.
 
 [POETRY]: https://python-poetry.org/
 [PYTHON]: https://www.python.org/
+[DATASET]: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
